@@ -10,8 +10,8 @@ Prefix scans (or parallel scans) form the backbone of many parallel algorithms�
 
 - **Inclusive & Exclusive Modes**: Compute both prefix sums and shifted-prefix scans.
 - **Custom Combine Function**: Supply any associative operation (sum, max, min, neural merge, etc.).
-- **Automatic Power-of-Two Padding**: Transparently pads sequences to the next power of two.
-- **Full Autograd Support**: Seamlessly integrates with PyTorch’s backward pass.
+- **Automatic Power-of-Two Padding**: Pads sequences to the next power of two.
+- **Full Autograd Support**: Works smoothly with PyTorch’s backward pass.
 - **Minimal Dependencies**: Pure PyTorch implementation with no external requirements.
 
 ## Installation
